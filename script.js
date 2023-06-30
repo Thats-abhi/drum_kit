@@ -5,8 +5,6 @@ document.querySelectorAll('.drum').forEach((drumBeat)=>{
    })
    
 })
-
-
 document.addEventListener('keypress',(event)=>{
     makeSound(event.key);
 })
